@@ -30,7 +30,7 @@ twitter_username: m2weet
 github_username:  maheshmad
 
 # Build settings
-theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
