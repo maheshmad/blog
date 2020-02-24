@@ -65,11 +65,12 @@ reSt  ructuredText  :  e:g
 
 # 4. Getting started with Sphinx:
 
-- Step 1: Install Sphinx using python package manager
-
+- Step 1: Install Sphinx using python package manager [https://www.sphinx-doc.org/en/master/index.html](install sphinx)
+  
     $ pip install Sphinx
 
-- Step 2: Once installed, use the quick start option to quickly generate a project
+- Step 2: Once installed, use the quick start option to quickly generate a project [quickstart](https://www.sphinx-doc.org/en/master/usage/quickstart.html)
+
 
     $ sphinx quickstart
 
@@ -102,7 +103,7 @@ You can include external images using figure  :: markdown
 * Continuous Integration:
   * Because we have a build script,  it is easy to rebuild the document changes after every release (assuming the developer has updated the docs)
 * Versioning:
-  * There are sphinx extensions available for handling this mainly using git (e:g  sphinxcontrib -versioning, Find more @ https://robpol86githubio/sphinxcontrib-versioning/)
+  * There are sphinx extensions available for handling this mainly using git (e:g  sphinxcontrib -versioning, Find more @ [sphinx versioning](https://github.com/sphinx-contrib/sphinxcontrib-versioning)
 * Hosting / Deployment:
   * The Sphinx build output is just a bunch of static html pages pdf, which could be hosted on any of our light weight http server
 
