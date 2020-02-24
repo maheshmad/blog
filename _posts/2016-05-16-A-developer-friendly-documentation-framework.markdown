@@ -65,7 +65,7 @@ reSt  ructuredText  :  e:g
 
 # 4. Getting started with Sphinx:
 
-- Step 1: Install Sphinx using python package manager [https://www.sphinx-doc.org/en/master/index.html](install sphinx)
+- Step 1: Install Sphinx using python package manager [install sphinx](https://www.sphinx-doc.org/en/master/index.html)
   
     $ pip install Sphinx
 
