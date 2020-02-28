@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "reSt Docs - A developer friendly documentation framework!"
-date:   2016-05-16 10:31:02 -0500
+date:   2017-12-01 10:31:02 -0500
 categories: ideas
 tags: ["documentation", "open source","sphinx docs","readthedocs"]
 ---
