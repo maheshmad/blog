@@ -20,7 +20,7 @@ But, in reality the cost of acquiring a new talent for a new project is way high
 <img src="{{site.baseurl}}/assets/images/efficient-resource-usage/typical_problems.jpg" height="400px" width="1200px" />
 
 
-## In efficient resource pool structure
+## Traditional Inefficient resource pool structure
 <img src="{{site.baseurl}}/assets/images/efficient-resource-usage/inefficient-structure.jpg" height="700px" width="1200px" />
 
 ## Efficient resource pool structure
