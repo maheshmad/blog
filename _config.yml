@@ -29,6 +29,7 @@ github_username:  maheshmad
 
 # Build settings
 theme: minima
+future: true
 plugins:
   - jekyll-feed
 
