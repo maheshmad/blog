@@ -14,7 +14,7 @@ That assumption was built on a specific model of computing — the lookup. The u
 
 We are no longer living in that world.
 
-![A two-panel comic strip: in 2023 the boss demands faster AI responses, in 2025 the same boss demands slower ones](/assets/images/boss_comic_strip.png)
+![A two-panel comic strip: in 2023 the boss demands faster AI responses, in 2025 the same boss demands slower ones]({{ '/assets/images/boss_comic_strip.png' | relative_url }})
 *The same boss. Two years apart. In 2026, the complaint is not that the AI was wrong — it is that it answered too fast to be trusted.*
 
 ## The wrong benchmark carries forward
@@ -39,7 +39,7 @@ Imagine a medical research team using an AI assistant to analyze a new therapy c
 
 This is not a lookup question. It requires the system to traverse molecular interaction databases, cross-reference published trial adverse event profiles, apply pharmacokinetic reasoning, and synthesize findings into a structured risk assessment. It is, in the most literal sense, the work of a trained scientist.
 
-![AI medical research assistant showing multi-step reasoning in progress](/assets/images/medical_ai_thinking_state.png)
+![AI medical research assistant showing multi-step reasoning in progress]({{ '/assets/images/medical_ai_thinking_state.png' | relative_url }})
 *An AI research assistant working through a multi-step reasoning chain across molecular data and trial literature — the visible progress is not overhead, it is evidence of work.*
 
 Now, imagine two versions of this assistant.
@@ -62,7 +62,7 @@ This is the design shift that most AI product teams have not yet made. The inter
 
 In deliberative agentic AI, the in-progress state becomes the most important surface in the entire experience.
 
-![Comparison of instant response versus deliberative AI in drug discovery](/assets/images/ai_response_comparison_ui.png)
+![Comparison of instant response versus deliberative AI in drug discovery]({{ '/assets/images/ai_response_comparison_ui.png' | relative_url }})
 *Left: an instant-response model returns a short answer immediately. Right: a deliberative agent surfaces its reasoning steps, data sources checked, and confidence signals — the wait is part of the answer.*
 
 Consider what a well-designed deliberative progress state communicates to a user:
@@ -80,7 +80,7 @@ It would be a mistake to argue that deliberative AI is always the right model. T
 
 A drive-through ordering system needs to confirm your meal in under two seconds. A real-time language translation service needs to keep pace with speech. A customer service triage system routing an inbound call has milliseconds. In all of these contexts, the task is well-defined, the stakes per interaction are low, and the user's expectation is immediate confirmation, not collaborative analysis.
 
-![Two contrasting AI use cases: low-stakes instant versus high-stakes deliberative](/assets/images/fast_vs_deliberative_ai_domains.png)
+![Two contrasting AI use cases: low-stakes instant versus high-stakes deliberative]({{ '/assets/images/fast_vs_deliberative_ai_domains.png' | relative_url }})
 *Left: a low-stakes transactional interaction where instant response is the right design. Right: a high-stakes analysis task where visible deliberation builds trust and enables the user to engage with the reasoning.*
 
 The distinction that matters here is not task complexity alone — it is the nature of the consequences and the role the user plays. In transactional contexts, the user is a consumer of a decision. In knowledge work contexts, the user is a collaborator in one. Those two relationships demand fundamentally different experiences.
@@ -121,7 +121,7 @@ This sounds simple, but it represents a profound shift in how we think about the
 
 The civilizations in Douglas Adams' *The Hitchhiker's Guide to the Galaxy* understood this intuitively. When they needed the answer to the ultimate question of life, the universe, and everything, they did not ask for a fast API. They commissioned a computer called Deep Thought — and then they waited.
 
-![A two-panel comic: beings ask Deep Thought for the ultimate answer, Deep Thought tells them to return in 7.5 million years; their descendants return and receive the answer: 42](/assets/images/deep_thought_comic.png)
+![A two-panel comic: beings ask Deep Thought for the ultimate answer, Deep Thought tells them to return in 7.5 million years; their descendants return and receive the answer: 42]({{ '/assets/images/deep_thought_comic.png' | relative_url }})
 *Deep Thought had the right idea. The answer took 7.5 million years. The beings who came back still did not know what to do with it — because they had forgotten the question. A lesson in async UX: make sure the context travels with the answer.*
 
 The comedic point Adams was making — that the answer is useless without remembering the question — is actually a sharp design insight. Async AI answers carry a UX responsibility that synchronous ones do not: the system must return not just the answer, but the full context of what was asked, why it was asked, what path the reasoning took, and what the user should do next. An answer that arrives hours later with no surrounding context is nearly as useless as "42."
@@ -135,7 +135,7 @@ What this means in practice for product teams:
 
 What this looks like in practice is less radical than it sounds. A well-designed async experience has three moments: the quiet handoff when the task begins (*"I have started working on this — you can close this window"*), the re-entry landing when the user returns (*here is what you asked, here is what was found, here is how to go deeper*), and the reasoning trail that makes the answer auditable long after the session ends.
 
-![Elegant async AI UX showing three states: a ready notification, a re-entry context card with the original question and summary, and a collapsible reasoning timeline](/assets/images/async_answer_ux.png)
+![Elegant async AI UX showing three states: a ready notification, a re-entry context card with the original question and summary, and a collapsible reasoning timeline]({{ '/assets/images/async_answer_ux.png' | relative_url }})
 *A well-designed async answer experience: the notification surfaces the summary, the re-entry card restores the original question, and the reasoning timeline lets the user audit the thinking before diving into the conclusions.*
 
 The async pattern is not a workaround for slow AI. It is an acknowledgment that some questions deserve the kind of time and rigor that no human knowledge worker could sustain in a single sitting — and that the right answer to *how long will this take* is sometimes: *longer than you want to wait right now, and that is fine.*
