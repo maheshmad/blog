@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hold on to your hats!!!! The thing that was not supposed to arrive until 2050 is already here"
-date: 2019-05-14 00:00:00 +0000
+date: 2024-05-14 00:00:00 +0000
 categories: ai
 tags: ["AI", "GPT-4o", "AI Assistants", "Agents", "Future of Work"]
 original_url: "https://www.linkedin.com/pulse/hold-your-hats-thing-supposed-arrive-until-2050-here-madhusudanan-nflhf/"
