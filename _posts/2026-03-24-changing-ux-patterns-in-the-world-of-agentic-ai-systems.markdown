@@ -56,6 +56,37 @@ Which version does the researcher trust?
 
 Version A might even be right more often, statistically. But Version B earns trust in a way that Version A structurally cannot. The researcher can see the work. They can audit the reasoning. They can decide where they agree and where they want to push back. The deliberation is the product.
 
+## The three phases of agentic reasoning
+
+The difference between an instant response and a deliberative one is not just about time — it is about the shape of the work that happens in between. Agentic reasoning in high-stakes domains tends to move through three recognizable phases, each with its own UX signature.
+
+![Instant trap versus agentic approach: a query answered by best guess versus a query answered by deliberate synthesis]({{ '/assets/images/agentic_vs_instant_overview.png' | relative_url }})
+*The instant model collapses reasoning into a single step — query in, answer out. The agentic model treats the gap between query and answer as where the real work lives.*
+
+### Phase 1 — The Thinking Phase (The Deep Breath)
+
+Before a well-designed agent responds, it plans. It reads. It decomposes the question into sub-tasks and begins working through them in parallel or in sequence. In our medical research example, this looks like: scanning the relevant trial corpus, breaking the question into sub-dimensions (mechanism, cohort, precedent), and setting up the reasoning scaffolding before any conclusions are drawn.
+
+![State 1: the AI agent in planning mode, reading trial reports, analyzing cohorts, identifying conflicting data points across multiple simultaneous task threads]({{ '/assets/images/agentic_phase1_thinking.png' | relative_url }})
+*Phase 1 is slow by design. The agent is not stalling — it is doing the work that makes the eventual answer defensible. This phase is the one most often sacrificed in the name of perceived speed.*
+
+From a UX standpoint, this phase is where most product teams drop the ball. The temptation is to hide all of this behind a spinner and surface only the final answer. But showing the planning — even at a high level — is what signals to the user that the system is taking the problem seriously.
+
+### Phase 2 — The Contradiction Phase (The Pivot)
+
+The most valuable thing an agentic system can do — and the thing an instant-response model structurally cannot do — is change its mind mid-task. When a well-designed agent cross-references its emerging findings and discovers an inconsistency, it does not smooth it over. It stops. It flags it. It may spin up a sub-agent specifically to investigate the discrepancy.
+
+![State 2: a contradiction is detected mid-task — the agent flags conflicting efficacy data between two studies and initiates a methodology verification sub-agent, while a fast API path is shown failing silently]({{ '/assets/images/agentic_phase2_contradiction.png' | relative_url }})
+*The contradiction phase is invisible in instant-response models — the system either picks a side silently or averages across conflicting data without disclosure. In a deliberative agent, the contradiction becomes a first-class event in the user interface.*
+
+This is the phase that matters most for trust in domains where data conflicts are common — clinical research, legal precedent, financial modeling. The user does not just want to know what the agent concluded. They want to know whether the agent noticed that the data did not agree.
+
+### Phase 3 — The Synthesis Phase (The Deliverable)
+
+Only after the thinking and the contradiction resolution does the agent produce its output — and the output is not just an answer. It is a structured deliverable: a synthesized finding, flagged uncertainties, cited sources, and a summary the user can act on. The timeline from query to delivery is longer than an instant response, but every stage of that timeline added something the fast path could not.
+
+The gap between the fast answer and the agentic synthesis is not wasted time. It is the work.
+
 ## The UX of visible thinking
 
 This is the design shift that most AI product teams have not yet made. The interaction model that evolved for instant-response APIs — empty state, spinner, response — does not communicate anything about how hard the question was or how carefully the system worked.
@@ -124,7 +155,6 @@ The civilizations in Douglas Adams' *The Hitchhiker's Guide to the Galaxy* under
 ![A two-panel comic: beings ask Deep Thought for the ultimate answer, Deep Thought tells them to return in 7.5 million years; their descendants return and receive the answer: 42]({{ '/assets/images/deep_thought_comic.png' | relative_url }})
 *Deep Thought had the right idea. The answer took 7.5 million years. The beings who came back still did not know what to do with it — because they had forgotten the question. A lesson in async UX: make sure the context travels with the answer.*
 
-The comedic point Adams was making — that the answer is useless without remembering the question — is actually a sharp design insight. Async AI answers carry a UX responsibility that synchronous ones do not: the system must return not just the answer, but the full context of what was asked, why it was asked, what path the reasoning took, and what the user should do next. An answer that arrives hours later with no surrounding context is nearly as useless as "42."
 
 What this means in practice for product teams:
 
