@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The patience of agentic AI!"
+title: "Changing UX Patterns in the world of Agentic AI systems"
 date:   2026-03-24 22:08:00 -0500
 categories: ai
 tags: ["Agentic AI", "UX Design", "Knowledge Work", "AI Trust"]
