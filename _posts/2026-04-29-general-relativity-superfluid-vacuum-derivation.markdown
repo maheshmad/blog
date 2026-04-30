@@ -316,6 +316,7 @@ This is the **equation of state of the superfluid vacuum's quantum pressure**, n
 | Singularity at $r = 0$ | Quantum pressure prevents it; replaced by vortex core |
 | Cosmological constant $\Lambda$ | Zero-point quantum pressure of vacuum BEC |
 | Friedmann expansion equation | Evolution equation for condensate healing length |
+| White hole (time-reverse of BH) | Superfluid *source* — outflow exceeds $c_s$, reversed acoustic horizon |
 
 ---
 
@@ -333,6 +334,121 @@ The superfluid vacuum theory is not merely a reformulation of GR — it makes co
 
 ---
 
+## Section 9: White Holes — Where Does the Drain Empty?
+
+In Section 6 we identified a black hole as a **superfluid drain**: a sink in the vacuum condensate where the inward flow velocity $v_{\text{inflow}}$ reaches and surpasses the phonon speed $c_s$. This picture is viscerally satisfying — but it raises an immediate, uncomfortable question:
+
+> *If the condensate is draining into a black hole, where is the condensate going?*
+
+In ordinary plumbing, a drain empties somewhere. In the superfluid vacuum, global **mass-energy conservation** (the continuity equation of the GPN system) demands the same:
+
+$$
+\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
+$$
+
+A localised sink ($\nabla \cdot (\rho \vec{v}) > 0$ for inflow) must be **balanced by a source somewhere**. That source is precisely what General Relativity calls a **white hole** — and in the superfluid vacuum picture, its existence is not a curiosity but a *conservation-law necessity*.
+
+### 9.1 The White Hole as an Acoustic Source
+
+A white hole is the time-reverse of a black hole. In the acoustic metric language, the sign of $v$ simply flips:
+
+- **Black hole (drain):** $v_{\text{inflow}} \rightarrow +c_s$ at the horizon. Condensate flows *in*. No signal can escape.
+- **White hole (source):** $v_{\text{outflow}} \rightarrow -c_s$ at the horizon. Condensate flows *out*. No signal can enter.
+
+The white hole horizon appears in the acoustic metric at the same critical surface $r_s = 2GM/c^2$, but with the inflow replaced by outflow:
+
+$$
+g_{tt}^{\text{white}} = -\frac{\rho}{c_s}\left(c_s^2 - v_{\text{outflow}}^2\right) = 0 \quad \text{when} \quad v_{\text{outflow}} = c_s
+$$
+
+Inside $r_s$, the condensate is erupting outward faster than phonons can travel inward. Nothing can fall in; everything is expelled. This is a **superfluid faucet**: the dual of the drain.
+
+![Black hole vs white hole acoustic horizons — pencil sketch](/blog/assets/images/superfluid/bh_wh_acoustic_horizon_comparison.png)
+*Figure 4: Side-by-side pencil sketch of the two acoustic horizons. Left: a black hole — condensate arrows converge inward, reaching $c_s$ at the dashed horizon ring. Right: a white hole — arrows radiate outward at $c_s$. Both horizons satisfy $g_{tt}=0$; the sign of $v$ alone determines which type. The vortex core at the centre is stabilised by quantum pressure in both cases.*
+
+### 9.2 The Drain-Source Topology: A Cosmic Vortex Tube
+
+In classical fluid mechanics, a vortex tube connects a sink to a source — the bathtub drain is connected to some municipal reservoir. In the superfluid vacuum, the analogous structure is a **quantum vortex filament** or a **wormhole-like condensate channel** connecting a black hole (sink) to a white hole (source):
+
+$$
+\text{Black Hole (sink)} \xrightarrow{\;\text{condensate flux}\;} \text{Wormhole channel} \xrightarrow{\;\text{condensate flux}\;} \text{White Hole (source)}
+$$
+
+The flux of condensate $J = \rho \, v$ is conserved along this channel. The condensate absorbed by the black hole's acoustic horizon re-emerges at the white hole, released back into the ambient vacuum. In GR language, this topology is the **Einstein-Rosen bridge** (wormhole). In SVT, it is simply a connected vortex tube threading a region of depleted condensate — topologically stable, because the superfluid vacuum admits vortex solutions whose winding number is a conserved quantum number.
+
+The rate of condensate throughput determines the luminosity of the white hole's outflow:
+
+$$
+\dot{M}_{\text{out}} = \oint_{\text{source surface}} \rho \, v_{\text{outflow}} \cdot d\vec{A} = \dot{M}_{\text{in}} - \dot{M}_{\text{Hawking}}
+$$
+
+where $\dot{M}_{\text{Hawking}}$ accounts for the Hawking quantum loss at the black hole horizon. The white hole therefore receives *slightly less* mass-energy than was consumed by the black hole, with the deficit radiated as Hawking phonons.
+
+![Drain-source topology — BH wormhole WH pencil sketch](/blog/assets/images/superfluid/bh_wh_drain_source_topology.png)
+*Figure 5: The cosmic plumbing. Left: a black hole funnel (drain) with inward condensate arrows and escaping Hawking phonons at the horizon. Centre: the quantum vortex tube / wormhole carrying conserved condensate flux $J=\rho v$. Right: the white hole funnel (source) with outward condensate arrows. The conservation equation $\dot{M}_{\text{out}} = \dot{M}_{\text{in}} - \dot{M}_{\text{Hawking}}$ is annotated at the bottom.*
+
+### 9.3 How White Holes Could Occur in Nature
+
+Classical GR treats white holes as mathematical solutions with no clear formation mechanism. SVT offers concrete physical scenarios:
+
+#### Scenario A — Hawking Evaporation as White Hole Birth
+
+As a black hole evaporates via Hawking radiation, the drain weakens. Near the end of its life, quantum pressure (the $\hbar^2$ GPE term) becomes dominant and halts the inflow at the condensate's healing length $\xi$. The remaining condensate inside the vortex core is no longer absorbed — it is *ejected*. The acoustic horizon reverses from a sink to a source:
+
+$$
+v_{\text{inflow}} \xrightarrow{\text{quantum pressure}} v_{\text{outflow}}
+$$
+
+The terminal phase of a microscopic, evaporating black hole is **a white hole burst** — a violent expulsion of all the condensate trapped in the vortex core. This is potentially observable as a sub-millisecond, gamma-ray transient: a **black hole to white hole quantum bounce**.
+
+Quantitatively, the bounce occurs when the black hole mass $M$ reaches the Planck mass:
+
+$$
+M_{\text{bounce}} \sim M_{\text{Planck}} = \sqrt{\frac{\hbar c}{G}} \approx 2.2 \times 10^{-8} \text{ kg}
+$$
+
+at which point $r_s \sim \xi$ (the Schwarzschild radius equals the condensate healing length), and quantum pressure completely dominates classical gravitational inflow.
+
+![Black hole to white hole quantum bounce — pencil sketch timeline](/blog/assets/images/superfluid/bh_wh_quantum_bounce_timeline.png)
+*Figure 6: The three-stage quantum bounce. Stage 1 (left): a large black hole slowly evaporating. Stage 2 (centre): at $M \sim M_{\text{Planck}}$, the Schwarzschild radius shrinks to the condensate healing length $\xi$ and quantum pressure halts the inflow. Stage 3 (right): the acoustic horizon reverses — a violent white hole burst ejects the trapped condensate as a sub-millisecond gamma-ray transient.*
+
+#### Scenario B — White Holes as the Big Bang
+
+If the universe began from a maximally dense, singular condensate state, SVT predicts that the extreme quantum pressure at $\rho \rightarrow \infty$ would generate a macroscopic outflow: the vacuum condensate explodes outward as a white hole event. The **Big Bang is a white hole** in the superfluid picture — the universe's primordial source, the faucet at the other end of whatever preceded our cosmos.
+
+This connects naturally to loop quantum cosmology (LQC), which also predicts a "quantum bounce" replacing the GR singularity. In SVT, the bounce is mechanical: the BEC's quantum pressure reverses the collapse.
+
+#### Scenario C — White Holes at the Cores of Supermassive Black Holes
+
+For astrophysical black holes that have not yet evaporated, the SVT predicts that the condensate vortex core does not reach zero density — it maintains a finite $\rho_{\text{core}} \sim \hbar^2 / (2m g \xi^2)$ due to quantum pressure. This core is not a singularity; it is a region of *supercompressed* condensate in a phase transition to a new vacuum ground state.
+
+If this compressed core reaches a critical density — a second quantum phase transition — it could nucleate a region where the local phonon speed $c_s^{\text{core}} > c_s^{\text{ambient}}$. Inside such a region, previously trapped condensate becomes *free to escape*, because the local horizon condition $v_{\text{inflow}} = c_s^{\text{core}}$ is no longer satisfied. The core becomes a white hole source, expelling condensate into the exterior universe.
+
+This is the mechanism behind speculative but actively discussed models of **Planck stars** (Rovelli & Vidotto 2014), translated into SVT language: the quantum-pressure-supported core eventually bounces and ejects its contents.
+
+### 9.4 Observational Signatures
+
+| Scenario | Predicted Signal | Observable Window |
+|---|---|---|
+| Primordial BH evaporation → white hole bounce | Sub-ms gamma-ray burst, no optical counterpart | Gamma-ray telescopes (Fermi-LAT, CTA) |
+| White hole outflow from BH core | High-energy jet with anomalous non-thermal spectrum | VLBI radio/X-ray jets |
+| Big Bang as white hole | CMB acoustic pattern encoding pre-bounce phase | Future CMB polarization surveys |
+| Condensate vortex channel (wormhole) | Apparent mass-energy non-conservation in isolated BH systems | Precision pulsar timing |
+
+The most tractable near-term test involves **fast radio bursts (FRBs)**: if some FRBs originate from sub-Planck-mass black hole terminal bounces, their time-frequency structure should reflect the condensate healing length $\xi$ as a natural spectral cutoff — a feature not predicted by any classical emission model.
+
+### 9.5 The Continuity Verdict
+
+In the superfluid vacuum picture:
+
+> **A black hole is a cosmic drain. A white hole is the faucet at the other end. The wormhole is the pipe. The universe's total condensate is conserved.**
+
+This is not mystical — it is the continuity equation of quantum hydrodynamics applied at cosmological scale. The superfluid vacuum does not permit sinks without sources. Every black hole that has ever existed must, on a timescale ranging from Hawking evaporation time to the age of the universe, return its consumed condensate to the ambient vacuum through a white hole event. The universe breathes in through its black holes and breathes out through its white holes.
+
+GR, working with curved geometry alone, has no mechanism to enforce this — the singularity just swallows the mass-energy and the theory is silent. SVT, working with a physical fluid, cannot be silent: mass-energy is condensate, and condensate obeys a continuity equation.
+
+---
+
 ## Conclusion: Three Posts, One Unified Picture
 
 Across this series, we have shown that a single hypothesis — **the vacuum is a superfluid Bose-Einstein Condensate** — generates, from the equations of quantum fluid mechanics alone, the following results:
@@ -341,7 +457,10 @@ Across this series, we have shown that a single hypothesis — **the vacuum is a
 - **Special Relativity** as the emergent Lorentz invariance of low-energy phonon excitations
 - **General Relativity** as the curved acoustic metric of an inhomogeneous, self-gravitating condensate
 - **Black holes** as acoustic horizons at the sonic point of condensate inflow
+- **White holes** as acoustic sources — the conservation-law-mandated outlet of the black hole drain
+- **Wormholes** as condensate vortex tubes threading the two horizons
 - **Hawking radiation** as quantum phonon pair production at the acoustic horizon
+- **Black hole to white hole bounce** as the quantum-pressure reversal at the end of Hawking evaporation
 - **Gravitational waves** as transverse acoustic density waves in the condensate
 - **Dark energy** as the zero-point quantum pressure of the vacuum BEC
 
@@ -358,3 +477,6 @@ Einstein gave us the geometry of gravity. The superfluid vacuum hypothesis asks:
 - *Barceló, C., Liberati, S., Visser, M. (2005). "Analogue Gravity." Living Reviews in Relativity.*
 - *Sindoni, L. (2012). "Emergent Models for Gravity: an Overview of Microscopic Models." SIGMA.*
 - *Liberati, S., Maccione, L. (2011). "Lorentz Invariance Violation: Made-of-Spacetime Models." Annual Review of Nuclear and Particle Science.*
+- *Rovelli, C., Vidotto, F. (2014). "Planck Stars." International Journal of Modern Physics D.*
+- *Haggard, H.M., Rovelli, C. (2015). "Quantum-gravity effects outside the horizon spark black to white hole tunneling." Physical Review D.*
+- *Penrose, R. (1969). "Gravitational Collapse: the Role of General Relativity." Rivista del Nuovo Cimento.*
