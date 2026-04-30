@@ -20,6 +20,9 @@ layout: default
       {% include superfluid_series_nav.html %}
     {% endif %}
     {{ content }}
+    {% if page.series == "superfluid" %}
+      {% include superfluid_series_nav.html %}
+    {% endif %}
   </div>
 
   {%- if site.disqus.shortname -%}
