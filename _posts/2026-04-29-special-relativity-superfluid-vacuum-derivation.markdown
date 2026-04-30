@@ -48,17 +48,26 @@ $$
 \vec{v} = \frac{\hbar}{m} \nabla \phi
 $$
 
+![Superfluid velocity from phase gradient — pencil sketch](/blog/assets/images/superfluid/fd_superfluid_velocity_phase_pencil.png)
+*Pencil sketch: The superfluid velocity field $\vec{v} = (\hbar/m)\nabla\phi$ is set entirely by the phase gradient of the condensate wave function. Denser phase contours (lines closer together) correspond to faster flow. Near a mass-sink, the phase converges inward, driving the condensate flow we call gravity.*
+
 Substituting the Madelung form into the GPE yields two real equations. The first is the continuity equation (conservation of the fluid's boson number):
 
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
 $$
 
+![Continuity equation pencil sketch — fluid dynamics of the vacuum condensate](/blog/assets/images/superfluid/fd_continuity_equation_pencil.png)
+*Pencil sketch: The continuity equation $\partial\rho/\partial t + \nabla\cdot(\rho\vec{v}) = 0$ expresses mass conservation in the superfluid vacuum. Any excess inflow into a control volume increases the local condensate density; any net outflow depletes it. This is the bookkeeping equation of cosmic fluid dynamics — and gravity is what happens when there is a permanent net inflow.*
+
 The second is the Euler-like equation of motion for the superfluid (analogous to Newton's second law for the fluid):
 
 $$
 m \frac{\partial \vec{v}}{\partial t} = -\nabla \left( g\rho - \frac{\hbar^2}{2m\sqrt{\rho}}\nabla^2\sqrt{\rho} \right)
 $$
+
+![Euler equation for the superfluid — pencil diagram](/blog/assets/images/superfluid/fd_euler_equation_pencil.png)
+*Pencil sketch: The Euler equation for the superfluid vacuum. A fluid parcel accelerates under two competing forces: the gravitational pressure gradient $\nabla\Phi_g$ (driving infall toward mass M) and the quantum acoustic pressure $c_s^2\nabla\rho$ (resisting compression). At large scales where quantum pressure is negligible, this becomes classical fluid acceleration — the physics of gravity as fluid dynamics.*
 
 The second term in the brackets is the **quantum pressure** (quantum potential), a purely quantum mechanical term with no classical analogue. In the low-energy, long-wavelength limit where spatial gradients are small, the quantum pressure term is negligible, and the system reduces to a classical ideal compressible fluid.
 
@@ -204,6 +213,9 @@ An observer at rest in the condensate experiences the vacuum density $\rho_0$. A
 $$
 \frac{\partial \phi}{\partial t} + \frac{m v^2}{2\hbar} + \frac{g\rho}{\hbar} = \text{const.}
 $$
+
+![Superfluid Bernoulli equation — pencil diagram](/blog/assets/images/superfluid/fd_bernoulli_superfluid_pencil.png)
+*Pencil sketch: The superfluid Bernoulli equation. As the vacuum condensate accelerates (channel narrows toward a mass), the kinetic term $mv^2/2\hbar$ increases while the interaction term $g\rho/\hbar$ (pressure) decreases — the classic Bernoulli trade-off. A clock moving at speed $v$ through this flow accumulates less phase per unit time, giving rise to special relativistic time dilation as a fluid-mechanical effect.*
 
 A moving "clock" (a localized phonon oscillating at frequency $\omega_0$ in its rest frame) experiences a modified local density and interaction energy due to its motion. The local phase accumulation rate — the thing physical clocks actually measure — is reduced by the kinetic energy of motion through the fluid:
 

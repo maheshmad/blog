@@ -46,10 +46,16 @@ $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
 $$
 
+![Continuity equation — mass conservation in the superfluid vacuum (pencil diagram)](/blog/assets/images/superfluid/fd_continuity_equation_pencil.png)
+*Pencil sketch: The continuity equation $\partial\rho/\partial t + \nabla\cdot(\rho\vec{v}) = 0$ is the master conservation law of the vacuum fluid. Net inflow into any volume element increases local density; net outflow decreases it. Every gravitational effect in this framework — infall, time dilation, black holes — traces back to this single equation applied to the vacuum condensate.*
+
 **Euler equation (momentum conservation):**
 $$
 \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = -\frac{1}{m}\nabla\left(g\rho + m\Phi_g\right) + \frac{\hbar^2}{2m^2}\nabla\left(\frac{\nabla^2 \sqrt{\rho}}{\sqrt{\rho}}\right)
 $$
+
+![Euler equation of the self-gravitating superfluid — pencil diagram](/blog/assets/images/superfluid/fd_euler_equation_pencil.png)
+*Pencil sketch: The Euler equation for the self-gravitating superfluid vacuum. A fluid parcel at position $\vec{r}$ accelerates under two forces: the gravitational potential gradient $\nabla\Phi_g$ (pulling inward toward any mass-sink) and the acoustic pressure gradient $c_s^2\nabla\rho$ (resisting compression). The right-hand $\hbar^2$ term is quantum pressure — negligible at large scales, but crucial near black hole cores where it prevents the singularity.*
 
 **Poisson equation:**
 $$
@@ -180,6 +186,9 @@ $$
 \frac{d\tau}{dt} = \sqrt{|g_{tt}|} \approx \sqrt{1 - \frac{2GM}{rc^2}}
 $$
 
+![Acoustic metric gtt and gravitational time dilation — pencil diagram](/blog/assets/images/superfluid/fd_acoustic_metric_flow_pencil.png)
+*Pencil sketch: The $g_{tt}$ component of the acoustic metric as a function of distance $r$ from a mass. Far from the mass ($v_{\rm inflow} \ll c_s$), $g_{tt} \approx -(\rho/c_s)c_s^2$ and spacetime is flat. At the acoustic horizon ($v_{\rm inflow} = c_s$), $g_{tt} = 0$ — the Schwarzschild radius. Inside, $g_{tt} > 0$ and time and space directions are exchanged. Clock rates (proportional to $\sqrt{|g_{tt}|}$) slow continuously toward the horizon.*
+
 This is exactly the **Schwarzschild gravitational time dilation formula**. Clocks near a massive object run slow because the inflow of the condensate toward the mass reduces the effective $g_{tt}$ component of the local acoustic metric, reducing the rate of phase accumulation for any oscillatory process (clock) built from phonon excitations.
 
 This is deeply physical: mass is a sink in the superfluid. The vacuum flows into it. This inflow creates a current that Doppler-redshifts the internal oscillation of any phonon-based clock sitting in the inflow — identical in mathematical structure to the gravitational redshift.
@@ -211,6 +220,9 @@ Setting $c_s \equiv c$:
 $$
 \boxed{r_s = \frac{2GM}{c^2}}
 $$
+
+![Schwarzschild radius from Bernoulli’s theorem — pencil diagram](/blog/assets/images/superfluid/fd_schwarzschild_bernoulli_pencil.png)
+*Pencil sketch: The Schwarzschild radius derived from the fluid-mechanical Bernoulli equation. The inflow velocity of the vacuum condensate accelerates as $v^2 = 2GM/r$ (energy conservation). At the critical radius $r_s = 2GM/c^2$, the inflow speed reaches $c_s \equiv c$ — the sonic point. Inside this radius, the supersonic inflow carries all phonons (light) inward with it; nothing can escape. The event horizon is a sonic surface.*
 
 This is the **Schwarzschild radius** — the radius of the event horizon of a non-rotating black hole — derived not from solving the Einstein equations in curved spacetime, but from the elementary fluid mechanics of a superfluid sink reaching the phonon speed.
 
@@ -345,6 +357,9 @@ In ordinary plumbing, a drain empties somewhere. In the superfluid vacuum, globa
 $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = 0
 $$
+
+![Continuity equation applied to black holes and white holes — pencil diagram](/blog/assets/images/superfluid/fd_white_hole_continuity_pencil.png)
+*Pencil sketch: The continuity equation applied at cosmological scale. A black hole (left funnel) is a sink: $\nabla\cdot(\rho\vec{v}) > 0$, condensate flows in, with a small fraction escaping as Hawking phonons at the horizon rim. The wormhole tube (centre) carries conserved condensate flux $J = \rho v$. The white hole (right funnel) is the source: condensate erupts outward. The universe’s total condensate is conserved: $\dot{M}_{\rm out} = \dot{M}_{\rm in} - \dot{M}_{\rm Hawking}$.*
 
 A localised sink ($\nabla \cdot (\rho \vec{v}) > 0$ for inflow) must be **balanced by a source somewhere**. That source is precisely what General Relativity calls a **white hole** — and in the superfluid vacuum picture, its existence is not a curiosity but a *conservation-law necessity*.
 

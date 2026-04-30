@@ -41,11 +41,17 @@ $$
 \frac{\partial \vec{v}}{\partial t} = -\nabla\Phi_g - c_s^2 \nabla\left(\frac{\delta\rho}{\rho_0}\right)
 $$
 
+![Linearized cosmological Euler equation — pencil diagram](/blog/assets/images/superfluid/fd_euler_equation_pencil.png)
+*Pencil sketch: The linearized Euler equation for the superfluid vacuum at cosmological scales. The condensate flow $\vec{v}$ accelerates under two gradients: the gravitational potential gradient $\nabla\Phi_g$ (driving flow toward mass concentrations) and the acoustic pressure gradient $c_s^2\nabla(\delta\rho/\rho_0)$ (resisting compression). Their balance determines the steady-state flow field — the cosmic current map.*
+
 In steady state ($\partial \vec{v}/\partial t = 0$), this gives:
 
 $$
 \boxed{\vec{v}_{\text{steady}}(\vec{r}) = -\nabla\left(\Phi_g + c_s^2 \frac{\delta\rho}{\rho_0}\right) \equiv -\nabla\Psi}
 $$
+
+![Potential flow and superhighway condition — pencil diagram](/blog/assets/images/superfluid/fd_potential_flow_superhighway_pencil.png)
+*Pencil sketch: The steady-state condensate flow $\vec{v} = -\nabla\Psi$ is a potential flow — fully determined by the gradient of the combined gravitational-acoustic potential $\Psi$. Between two masses $M_1$ and $M_2$, the flow gradients cancel at the L1 saddle point ($\nabla\Psi = 0$). The dashed tube passing through this saddle point is the superhighway: along it, $D\vec{v}/Dt = 0$ — a spacecraft needs no propellant.*
 
 The steady-state condensate flow is a **potential flow** — it is the gradient of a combined gravitational-acoustic potential $\Psi$. This is exactly the structure of irrotational fluid mechanics. The condensate flows like an ideal, irrotational fluid around all massive objects simultaneously.
 
@@ -62,6 +68,9 @@ $$
 $$
 \frac{D\vec{v}}{Dt} = \frac{\partial \vec{v}}{\partial t} + (\vec{v} \cdot \nabla)\vec{v} = 0
 $$
+
+![Material derivative and zero-acceleration superhighway condition — pencil diagram](/blog/assets/images/superfluid/fd_potential_flow_superhighway_pencil.png)
+*Pencil sketch: A spacecraft on a superhighway streamline satisfies $D\vec{v}/Dt = 0$ — it experiences zero net fluid acceleration. Travelling along the potential contour $\Psi = \text{const}$ between two gravitational basins costs zero propellant: the condensate current carries it. Crossing a streamline (changing basins) requires energy proportional to the local $|\nabla\Psi|$.*
 
 These are the **streamlines of the steady flow** — curves that everywhere follow the direction of $\vec{v}$. Along a streamline, a fluid parcel (or a spacecraft entrained in the flow) experiences zero net acceleration. It travels at constant speed relative to the condensate without any propellant expenditure.
 

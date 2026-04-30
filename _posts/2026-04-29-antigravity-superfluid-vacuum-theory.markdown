@@ -118,6 +118,9 @@ $$
 \rho_{\text{bubble}}(r) = \rho_0 \tanh^2\left(\frac{r - R}{\xi}\right)
 $$
 
+![Dark soliton density profile — pencil sketch of the vacuum bubble antigravity mechanism](/blog/assets/images/superfluid/fd_dark_soliton_density_pencil.png)
+*Pencil sketch: The dark soliton (vacuum bubble) density profile $\rho = \rho_0\tanh^2((r-R)/\xi)$. Inside the bubble ($r < R$), $\rho \approx 0$ — a region of zero condensate pressure. The surrounding higher-pressure condensate pushes inward against the bubble surface, creating a net outward (buoyant) force on anything inside. This is the quantum-fluid analogue of buoyancy — a natural antigravity zone.*
+
 where $R$ is the bubble radius and $\xi$ is the healing length. Inside the bubble ($r < R$), $\rho \approx 0$, meaning the condensate pressure $P = g\rho^2/2 \approx 0$. The ambient vacuum pressure outside is $P_0 = g\rho_0^2/2$.
 
 The resulting outward pressure force on a test mass $m$ placed inside the bubble is:
@@ -153,6 +156,9 @@ $$
 \vec{v}(\vec{r}) = \frac{\hbar}{m}\nabla\phi(\vec{r})
 $$
 
+![Superfluid velocity from phase gradient — pencil sketch for antigravity phase engineering](/blog/assets/images/superfluid/fd_superfluid_velocity_phase_pencil.png)
+*Pencil sketch: The superfluid velocity $\vec{v} = (\hbar/m)\nabla\phi$. In normal matter (left), the phase converges inward toward the mass — inward flow, gravity. For the proposed phase engineering (right), the phase gradient is reversed to point outward — outward flow, antigravity. The same equation governs both; only the direction of $\nabla\phi$ differs.*
+
 In normal matter, the phase $\phi$ of the vacuum condensate converges *toward* the mass (creating inward flow = gravity). The hypothesis: if we can coherently manipulate the phase gradient $\nabla\phi$ around a device so that it points *outward*, we directly engineer an outward superfluid flow — and thus a repulsive gravitational pressure.
 
 ![Phase Engineering — Controlling Superfluid Flow Direction for Antigravity](/blog/assets/images/superfluid/phase_engineering_antigravity.png)
@@ -165,6 +171,9 @@ The continuity equation of the superfluid vacuum is:
 $$
 \frac{\partial\rho}{\partial t} + \nabla\cdot(\rho\vec{v}) = S(\vec{r}, t)
 $$
+
+![Continuity equation with source term — pencil sketch for antigravity engineering](/blog/assets/images/superfluid/fd_continuity_equation_pencil.png)
+*Pencil sketch: The continuity equation with an engineered source term $S(\vec{r},t)$. For ordinary matter, $S < 0$ (a sink — condensate flows inward, gravity). For an antigravity device using phase engineering, we propose making $S > 0$ (a source — condensate flows outward, repulsion). The control of the sign of $S$ is the engineering challenge.*
 
 where $S$ is a source term. For normal matter, $S < 0$ (a sink). For phase engineering, we propose coupling a high-frequency electromagnetic or quantum field resonator to the vacuum condensate to imprint a structured phase pattern, making $S > 0$ (a source) in the vicinity of the device.
 
@@ -193,6 +202,9 @@ In a rotating superfluid, angular momentum is not carried smoothly — it is con
 $$
 \oint \vec{v} \cdot d\vec{l} = \frac{2\pi\hbar}{m}
 $$
+
+![Quantized vortex circulation — pencil sketch for vortex lattice antigravity mechanism](/blog/assets/images/superfluid/fd_vortex_circulation_pencil.png)
+*Pencil sketch: Quantized vortex circulation $\oint \vec{v}\cdot d\vec{l} = 2\pi\hbar/m$. A superfluid vortex carries exactly one quantum of circulation. At each vortex core, the condensate density drops to zero over the healing length $\xi$. A lattice of such vortex cores (Abrikosov lattice, inset) creates a structured pattern of density deficits $\rho < \rho_0$ throughout the rotating region — the basis of the vortex lattice antigravity mechanism.*
 
 At the core of each vortex, the condensate density drops to zero over the healing length $\xi$. A lattice of vortices (an Abrikosov lattice, as seen in rotating superfluids and type-II superconductors) creates a structured pattern of density deficits throughout the rotating region.
 
