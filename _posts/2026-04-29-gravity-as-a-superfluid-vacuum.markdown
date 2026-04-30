@@ -19,7 +19,7 @@ If space is a fluid, then fundamental particles (like electrons and quarks) are 
 
 When we introduce mass into this fluid, it doesn't just "warp the geometry." A massive object acts as an impurity, a sink, or a source of vortices within the superfluid. The fluid flows around and interacts with the mass, creating pressure gradients. The "pull" of gravity we feel is, in this model, essentially the pressure gradient of the cosmic fluid pushing objects toward areas of lower density or altered flow—much like how a whirlpool draws in floating leaves.
 
-![Mass as a Superfluid Sink — the origin of gravity](/assets/images/superfluid/superfluid_gravity_sink.png)
+![Mass as a Superfluid Sink — the origin of gravity](/blog/assets/images/superfluid/superfluid_gravity_sink.png)
 *Figure 1: A massive object acts as a sink in the superfluid vacuum. The curved inflow streamlines of the condensate create the pressure gradient we experience as gravity. The flow accelerates toward the mass, mirroring the $1/r^2$ dependence of Newton's Law.*
 
 ## Has Physics Explored This? (Spoiler: Yes!)

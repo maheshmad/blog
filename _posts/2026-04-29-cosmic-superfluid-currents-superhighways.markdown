@@ -94,7 +94,7 @@ The large-scale structure of the universe — the cosmic web of filaments, sheet
 
 The Sloan Digital Sky Survey (SDSS), the 2dF Galaxy Redshift Survey, and the Euclid mission have all mapped this structure in extraordinary detail. In the SVT framework, they have simultaneously mapped the cosmic condensate flow topology.
 
-![Cosmic Superfluid Flow Topology — Large Scale Structure as a Fluid Dynamics Map](/assets/images/superfluid/cosmic_superfluid_currents_map.png)
+![Cosmic Superfluid Flow Topology — Large Scale Structure as a Fluid Dynamics Map](/blog/assets/images/superfluid/cosmic_superfluid_currents_map.png)
 *Figure 1 (DWG CSF-001): The cosmic web reinterpreted as a superfluid flow map. Dense filaments (thick channels) carry fast condensate flow toward convergence nodes. Voids are low-pressure backflow zones. Dashed separatrix lines mark the zero-gradient superhighways between competing basins — the natural interstellar travel corridors. Inset: Laniakea supercluster basin of attraction with the observed 600 km/s bulk flow (CosmicFlows-3 survey).*
 
 ### 2.3 The Interplanetary Transport Network — Already Used by NASA
@@ -107,7 +107,7 @@ In the SVT framework, the ITN tubes are precisely the **streamlines of the solar
 
 The ITN is the condensate superhighway. We discovered it empirically. We have used it. The Genesis mission (2001–2004) and SMART-1 (2003) used ITN trajectories operationally.
 
-![Interplanetary Superfluid Highway Network — Solar System Flow Topology](/assets/images/superfluid/interplanetary_superhighway_svt.png)
+![Interplanetary Superfluid Highway Network — Solar System Flow Topology](/blog/assets/images/superfluid/interplanetary_superhighway_svt.png)
 *Figure 2 (DWG IPN-001): The Interplanetary Transport Network reinterpreted as superfluid vacuum flow tubes. Spacecraft traveling along the zero-gradient streamlines between Lagrange points experience zero net condensate force — free transit without propellant. The tubes are the invariant manifolds of the condensate flow field.*
 
 ---
@@ -148,7 +148,7 @@ $$
 \frac{\partial v_i}{\partial x_j} \approx \frac{v_i(\vec{r} + d\hat{e}_j) - v_i(\vec{r})}{d}
 $$
 
-![Vacuum Flow Sensor — Superfluid Gradient Detector (DWG VFS-001)](/assets/images/superfluid/vacuum_flow_sensor_blueprint.png)
+![Vacuum Flow Sensor — Superfluid Gradient Detector (DWG VFS-001)](/blog/assets/images/superfluid/vacuum_flow_sensor_blueprint.png)
 *Figure 3 (DWG VFS-001): The Vacuum Flow Sensor — a four-arm Mach-Zehnder phonon interferometer for measuring the local superfluid vacuum velocity vector. Each arm measures the phase difference between co-propagating and counter-propagating phonon beams. The gradient tensor is obtained by comparing readings across the arms. Sensitivity: $10^{-12}$ Pa pressure gradient, sufficient to detect the superhighway boundary (separatrix) to within ~1 AU.*
 
 ### 3.3 The Sensitivity Required

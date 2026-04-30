@@ -41,7 +41,7 @@ The geometry of the Crooked Soley formation is unique in the documented crop cir
 ![Aerial photograph of the Crooked Soley crop circle, Berkshire, August 27 2002](https://www.cropcirclearchives.co.uk/archives/2002/crookedsoley/Hungerford2002a.jpg)
 *Aerial photograph: Crooked Soley, near Hungerford, Berkshire, England — August 27, 2002. 1,296 circles arranged as a double-helix torus knot, ~75 metres in diameter. **Photo © Steve Alexander / Temporary Temples ([temporarytemples.co.uk](https://www.temporarytemples.co.uk))** — used for educational and analytical commentary.*
 
-![Crooked Soley 2002 Formation — Geometric Analysis vs. Toroidal Vacuum Resonance Device](/assets/images/superfluid/crooked_soley_analysis.png)
+![Crooked Soley 2002 Formation — Geometric Analysis vs. Toroidal Vacuum Resonance Device](/blog/assets/images/superfluid/crooked_soley_analysis.png)
 *Figure 2: Blueprint analysis of the Crooked Soley 2002 formation overlaid with the engineering parameters of the Toroidal Vacuum Resonance Device (DWG AE-003). Correspondences: outer torus radius R, inner tube radius r, double-helix winding angle θ, central void (density deficit zone). Inset compares the formation cross-section to the AE-003 device cross-section.*
 
 ---

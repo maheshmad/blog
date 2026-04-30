@@ -102,7 +102,7 @@ This is the quadratic dispersion of a non-relativistic free particle. At very hi
 
 This immediately gives us a critical, testable prediction that distinguishes the superfluid model from standard Special Relativity: **at ultra-high energies, the universe is NOT Lorentz invariant.** We will return to this.
 
-![Bogoliubov Dispersion Relation — SR emerges at low k, Lorentz violation at Planck scale](/assets/images/superfluid/bogoliubov_dispersion_sr.png)
+![Bogoliubov Dispersion Relation — SR emerges at low k, Lorentz violation at Planck scale](/blog/assets/images/superfluid/bogoliubov_dispersion_sr.png)
 *Figure 1: The Bogoliubov dispersion relation $\omega^2 = c_s^2 k^2 + \hbar^2 k^4 / 4m^2$. At low momentum (blue zone), the linear regime gives rise to emergent Special Relativity. At Planck-scale momenta (red zone), the quadratic term dominates and Lorentz invariance breaks down — a falsifiable prediction.*
 
 ---

@@ -214,7 +214,7 @@ This is the **Schwarzschild radius** — the radius of the event horizon of a no
 
 A black hole is nothing more than a **superfluid drain**. At the Schwarzschild radius, the condensate's inflow becomes supersonic, forming an acoustic event horizon. The singularity at $r = 0$ in the GR description is replaced, in the superfluid model, by a vortex core or a quantum phase transition — a region where the condensate's quantum pressure (the $\hbar^2$ term in the GPE) becomes dominant and prevents a true density singularity.
 
-![Acoustic Black Hole — the event horizon as a sonic point in the superfluid vacuum](/assets/images/superfluid/acoustic_black_hole.png)
+![Acoustic Black Hole — the event horizon as a sonic point in the superfluid vacuum](/blog/assets/images/superfluid/acoustic_black_hole.png)
 *Figure 2: The acoustic black hole ("dumb hole") in the superfluid vacuum. The glowing ring marks the acoustic event horizon where $v_{\text{inflow}} = c_s$ — the Schwarzschild radius derived from Bernoulli's theorem. Inside, no phonon can escape. At the center, quantum pressure replaces the GR singularity with a stable vortex core.*
 
 ### Hawking Radiation as Acoustic Quantum Emission
@@ -255,7 +255,7 @@ The two polarization modes of gravitational waves ($h_+$ and $h_\times$) corresp
 
 **Gravitational waves are acoustic waves in the superfluid vacuum.** LIGO is, in this picture, a cosmic phonon detector.
 
-![Gravitational Waves as Acoustic Density Waves in the Superfluid Vacuum](/assets/images/superfluid/gravitational_waves_acoustic.png)
+![Gravitational Waves as Acoustic Density Waves in the Superfluid Vacuum](/blog/assets/images/superfluid/gravitational_waves_acoustic.png)
 *Figure 3: Two merging compact objects emit expanding concentric rings of alternating compressed (bright) and rarefied (dark) condensate density. These propagate at $c_s \equiv c$. The two polarization modes $h_+$ and $h_\times$ correspond to orthogonal transverse oscillation modes of the condensate. LIGO detected these acoustic ripples in 2015.*
 
 ---

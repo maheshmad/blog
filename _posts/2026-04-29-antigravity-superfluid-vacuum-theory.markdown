@@ -23,7 +23,7 @@ This picture, once internalized, immediately suggests an answer to the question 
 
 A gravitational source pushes the superfluid *away* from it in all directions. Any other object in the vicinity experiences a net outward pressure gradient — a repulsive force. This is not science fiction; it is the direct, logical inverse of the mechanism we have already derived for gravity.
 
-![Gravity as Sink vs. Antigravity as Source in the Superfluid Vacuum](/assets/images/superfluid/antigravity_source_vs_sink.png)
+![Gravity as Sink vs. Antigravity as Source in the Superfluid Vacuum](/blog/assets/images/superfluid/antigravity_source_vs_sink.png)
 *Figure 1: The fundamental contrast. Gravity (left) is an inward condensate flow toward a mass-sink. Antigravity (right) is an engineered outward flow from a mass-source. The repulsive pressure gradient pushes all surrounding objects away.*
 
 The question is therefore not *whether* antigravity is possible in this framework — it is *how* to engineer a source in the quantum fluid of space.
@@ -126,7 +126,7 @@ $$
 
 directed outward from the gravitational source, opposing the gravitational infall.
 
-![Vacuum Bubble Antigravity — Buoyancy in the Superfluid Vacuum](/assets/images/superfluid/vacuum_bubble_antigravity.png)
+![Vacuum Bubble Antigravity — Buoyancy in the Superfluid Vacuum](/blog/assets/images/superfluid/vacuum_bubble_antigravity.png)
 *Figure 2: A "vacuum bubble" — a dark soliton in the superfluid condensate — creates a local density deficit $\rho < \rho_0$. The surrounding higher-pressure condensate exerts a net outward (buoyant) force on objects within the bubble, generating effective antigravity.*
 
 **The Alcubierre Connection:**
@@ -153,7 +153,7 @@ $$
 
 In normal matter, the phase $\phi$ of the vacuum condensate converges *toward* the mass (creating inward flow = gravity). The hypothesis: if we can coherently manipulate the phase gradient $\nabla\phi$ around a device so that it points *outward*, we directly engineer an outward superfluid flow — and thus a repulsive gravitational pressure.
 
-![Phase Engineering — Controlling Superfluid Flow Direction for Antigravity](/assets/images/superfluid/phase_engineering_antigravity.png)
+![Phase Engineering — Controlling Superfluid Flow Direction for Antigravity](/blog/assets/images/superfluid/phase_engineering_antigravity.png)
 *Figure 3: A toroidal resonant device coherently imprints an outward phase gradient $\nabla\phi$ onto the surrounding vacuum condensate. By $\vec{v} = (\hbar/m)\nabla\phi$, this drives an outward superfluid flow, generating a repulsive pressure gradient. This is the theoretical basis of a "gravity drive" operating through vacuum phase engineering.*
 
 **Mathematical Formulation:**

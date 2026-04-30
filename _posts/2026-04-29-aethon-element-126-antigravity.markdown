@@ -56,7 +56,7 @@ The 5g orbitals are unlike anything in known chemistry:
 
 This quantum bistability of the 5g orbital is crucial. It means the outer electron cloud of Aethon can exist in a **superposition of two macroscopically different density configurations** — a property with deep implications for vacuum coupling.
 
-![Aethon (Ae, Z=126) — Atomic Structure](/assets/images/superfluid/aethon_atomic_structure.png)
+![Aethon (Ae, Z=126) — Atomic Structure](/blog/assets/images/superfluid/aethon_atomic_structure.png)
 *Figure 1: The atomic structure of Aethon (Ae, Z=126, N=184). The nucleus adopts a toroidal geometry (gold torus at center), generating enormous magnetic moments. The 5g electrons (violet/indigo outer cloud) exhibit orbital collapse bistability — oscillating between diffuse and contracted configurations. This bistability is the physical basis of the proposed vacuum resonance coupling.*
 
 ---
@@ -106,7 +106,7 @@ When both conditions are satisfied simultaneously — which first occurs at Z=12
 
 **Aethon is the unique element in the periodic table that sits at the intersection of both conditions.**
 
-![Aethon — Periodic Table Entry](/assets/images/superfluid/aethon_periodic_table.png)
+![Aethon — Periodic Table Entry](/blog/assets/images/superfluid/aethon_periodic_table.png)
 *Figure 2: The proposed periodic table entry for Aethon (Ae), element 126. As the first g-block element to achieve simultaneous toroidal nuclear topology and 5g orbital resonance with the vacuum condensate, it occupies a unique position in both the periodic table and in the physics of spacetime engineering.*
 
 ---
@@ -242,7 +242,7 @@ The next generation of heavy-ion accelerators — particularly the **FAIR facili
 
 With an Aethon crystal in hand, the antigravity device design follows directly from the physics:
 
-![Aethon Toroidal Antigravity Device — Concept Design](/assets/images/superfluid/aethon_device_concept.png)
+![Aethon Toroidal Antigravity Device — Concept Design](/blog/assets/images/superfluid/aethon_device_concept.png)
 *Figure 3: A toroidal Aethon crystal lattice device. The Aethon crystal core (violet glow) creates spontaneous outward vacuum phase gradients through its 5g vacuum resonance coupling. The toroidal device geometry focuses and amplifies this effect into a directional antigravity field, levitating the platform below.*
 
 ### 6.1 The Toroidal Crystal Resonator
