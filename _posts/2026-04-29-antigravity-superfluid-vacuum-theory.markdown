@@ -9,7 +9,7 @@ categories: physics antigravity science
 
 ---
 
-*This is the fourth post in the Superfluid Vacuum series. [Part 1](/physics/gravity/science/2026/04/29/gravity-as-a-superfluid-vacuum.html) introduced the core hypothesis. [Part 2](/physics/relativity/science/2026/04/29/special-relativity-superfluid-vacuum-derivation.html) derived Special Relativity. [Part 3](/physics/gravity/relativity/science/2026/04/29/general-relativity-superfluid-vacuum-derivation.html) derived General Relativity. Here we ask: if gravity is an inward flow in the superfluid vacuum, can we reverse that flow?*
+*This is the fourth post in the Superfluid Vacuum series. [Part 1](/blog/physics/gravity/science/2026/04/29/gravity-as-a-superfluid-vacuum.html) introduced the core hypothesis. [Part 2](/blog/physics/relativity/science/2026/04/29/special-relativity-superfluid-vacuum-derivation.html) derived Special Relativity. [Part 3](/blog/physics/gravity/relativity/science/2026/04/29/general-relativity-superfluid-vacuum-derivation.html) derived General Relativity. Here we ask: if gravity is an inward flow in the superfluid vacuum, can we reverse that flow?*
 
 ---
 

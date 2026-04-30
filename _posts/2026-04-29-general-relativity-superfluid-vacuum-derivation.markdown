@@ -5,7 +5,7 @@ date:   2026-04-29 19:00:00 -0400
 categories: physics gravity relativity science
 ---
 
-> **Note:** This is the third post in a series on the Superfluid Vacuum Hypothesis. [Part 1](/physics/gravity/science/2026/04/29/gravity-as-a-superfluid-vacuum.html) introduced the core hypothesis that space is a BEC and gravity is an emergent fluid-mechanical phenomenon. [Part 2](/physics/relativity/science/2026/04/29/special-relativity-superfluid-vacuum-derivation.html) derived the full structure of Special Relativity from the Bogoliubov phonon spectrum and the acoustic metric. This post takes the final step: deriving General Relativity — curved spacetime, Einstein's field equations, gravitational time dilation, black holes, and gravitational waves — from the same superfluid framework.
+> **Note:** This is the third post in a series on the Superfluid Vacuum Hypothesis. [Part 1](/blog/physics/gravity/science/2026/04/29/gravity-as-a-superfluid-vacuum.html) introduced the core hypothesis that space is a BEC and gravity is an emergent fluid-mechanical phenomenon. [Part 2](/blog/physics/relativity/science/2026/04/29/special-relativity-superfluid-vacuum-derivation.html) derived the full structure of Special Relativity from the Bogoliubov phonon spectrum and the acoustic metric. This post takes the final step: deriving General Relativity — curved spacetime, Einstein's field equations, gravitational time dilation, black holes, and gravitational waves — from the same superfluid framework.
 
 ---
 

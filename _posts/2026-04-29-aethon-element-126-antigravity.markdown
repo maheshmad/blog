@@ -9,7 +9,7 @@ categories: physics antigravity science
 
 ---
 
-*This is the fifth and most speculative post in the Superfluid Vacuum series. In [Part 4](/physics/antigravity/science/2026/04/29/antigravity-superfluid-vacuum-theory.html), we derived four mechanisms for antigravity within the superfluid vacuum framework. Each mechanism requires engineering the quantum vacuum — a task whose energy cost is staggering at Planck scales. Here we ask: is there a naturally occurring (or synthesizable) element whose intrinsic atomic physics provides the coupling to the vacuum condensate that we need — dramatically lowering the energy barrier to antigravity?*
+*This is the fifth and most speculative post in the Superfluid Vacuum series. In [Part 4](/blog/physics/antigravity/science/2026/04/29/antigravity-superfluid-vacuum-theory.html), we derived four mechanisms for antigravity within the superfluid vacuum framework. Each mechanism requires engineering the quantum vacuum — a task whose energy cost is staggering at Planck scales. Here we ask: is there a naturally occurring (or synthesizable) element whose intrinsic atomic physics provides the coupling to the vacuum condensate that we need — dramatically lowering the energy barrier to antigravity?*
 
 ---
 
