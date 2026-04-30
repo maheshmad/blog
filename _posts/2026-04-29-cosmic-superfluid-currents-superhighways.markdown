@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 8
 title:  "Cosmic Currents in the Superfluid Universe: Finding and Riding the Vacuum Superhighways"
 date:   2026-04-29 22:00:00 -0400
 categories: physics space-travel science

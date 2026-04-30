@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 9
 title:  "Five Known Techniques for Mapping the Cosmic Superfluid Highways"
 date:   2026-04-29 23:00:00 -0400
 categories: physics space-travel science

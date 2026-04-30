@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 4
 title:  "Antigravity from the Superfluid Vacuum: A Theoretical Framework for Gravitational Repulsion"
 date:   2026-04-29 19:30:00 -0400
 categories: physics antigravity science

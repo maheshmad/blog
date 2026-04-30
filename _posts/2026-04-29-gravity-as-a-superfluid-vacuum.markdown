@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 1
 title:  "Gravity and the Superfluid Vacuum: A Deep Dive into Fluid Dynamics and the Cosmos"
 date:   2026-04-29 18:00:00 -0400
 categories: physics gravity science

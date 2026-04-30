@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 2
 title:  "Special Relativity from a Superfluid Vacuum: An Alternative Derivation"
 date:   2026-04-29 18:30:00 -0400
 categories: physics relativity science

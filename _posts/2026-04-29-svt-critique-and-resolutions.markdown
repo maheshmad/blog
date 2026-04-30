@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 6
 title:  "Ten Devastating Critiques of the Superfluid Vacuum Theory — And How to Answer Them"
 date:   2026-04-29 20:30:00 -0400
 categories: physics antigravity science

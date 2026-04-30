@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 3
 title:  "Deriving General Relativity from a Superfluid Vacuum: Gravity as Fluid Dynamics"
 date:   2026-04-29 19:00:00 -0400
 categories: physics gravity relativity science

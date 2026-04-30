@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 7
 title:  "Crop Circles as Engineering Diagrams: The Crooked Soley Torus Knot and the Aethon Engine"
 date:   2026-04-29 21:00:00 -0400
 categories: physics antigravity science

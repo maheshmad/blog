@@ -1,5 +1,7 @@
 ---
 layout: post
+series: superfluid
+part: 5
 title:  "Aethon (Ae, Z=126): Postulating the Element That Could Make Antigravity Real"
 date:   2026-04-29 20:00:00 -0400
 categories: physics antigravity science
