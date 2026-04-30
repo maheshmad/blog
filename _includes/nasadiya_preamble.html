@@ -1,0 +1,117 @@
+<div class="nasadiya-preamble">
+  <div class="preamble-overlay"></div>
+  <div class="preamble-content">
+    <div class="sanskrit-verse">
+      नासदासीनो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् ।<br>
+      किमावरीवः कुह कस्य शर्मन्नम्भः किमासीद्गहनं गभीरम् ॥ १ ॥
+    </div>
+    <div class="english-verse">
+      Then even nothingness was not, nor existence,<br>
+      There was no air then, nor the heavens beyond it.<br>
+      What covered it? Where was it? In whose keeping<br>
+      Was there then cosmic water, in depths unfathomed?
+    </div>
+    <div class="preamble-credit">
+      — Rigveda 10.129 (Nasadiya Sukta)<br>
+      <span class="inspiration-note">The primary philosophical inspiration for the Superfluid Vacuum Theory.</span>
+    </div>
+  </div>
+</div>
+
+<style>
+.nasadiya-preamble {
+  position: relative;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 2rem 0 3rem 0;
+  background: #020617; /* Deepest blue/black */
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+    url('https://www.transparenttextures.com/patterns/stardust.png');
+  border-radius: 16px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.preamble-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(2, 6, 23, 0.4) 0%, rgba(2, 6, 23, 0.8) 100%);
+  z-index: 1;
+}
+
+.preamble-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sanskrit-verse {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  font-family: 'Noto Serif Devanagari', serif;
+  color: #fbbf24; /* Golden */
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.4);
+  letter-spacing: 0.02em;
+}
+
+.english-verse {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  font-style: italic;
+  color: #e2e8f0;
+  margin-bottom: 2.5rem;
+  font-family: 'Georgia', serif;
+  opacity: 0.95;
+}
+
+.preamble-credit {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.inspiration-note {
+  display: block;
+  font-size: 0.75rem;
+  font-style: normal;
+  margin-top: 0.5rem;
+  color: #64748b;
+  text-transform: none;
+  font-weight: 400;
+}
+
+/* Subtle animation for the "cosmic water" feel */
+@keyframes nebulaFlow {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.nasadiya-preamble {
+  animation: nebulaFlow 60s ease infinite;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  .sanskrit-verse { font-size: 1.2rem; }
+  .english-verse { font-size: 1rem; }
+  .nasadiya-preamble { padding: 3rem 1rem; }
+}
+</style>
+
+<!-- Load Devanagari Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">

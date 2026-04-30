@@ -7,6 +7,9 @@ date:   2026-04-29 18:00:00 -0400
 categories: physics gravity science
 ---
 
+{% include nasadiya_preamble.html %}
+
+
 For over a century, Albert Einstein's General Relativity has been the undisputed heavyweight champion of gravitational theory. It asks us to visualize gravity not as a pulling force, but as the curvature of spacetime itself—a massive object like a bowling ball resting on a trampoline, creating a dip that causes marbles to roll toward it.
 
 But what if there is an entirely different, perhaps more intuitive, way to model the universe? What if space isn't an empty geometrical void, but a vast, flowing substance? 
